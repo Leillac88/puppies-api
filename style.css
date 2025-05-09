@@ -88,6 +88,7 @@ button:hover {
     font-size: 2em;
     padding: 10px 20px;
     margin-bottom: 15px;
+    align-items: center;
   }
 
   button {
@@ -111,6 +112,7 @@ button:hover {
 @media (max-width: 480px) {
   h1 {
     font-size: 1.7em;
+    align-items: center;
   }
 
   button {
