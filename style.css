@@ -81,3 +81,49 @@ button:hover {
   border-radius: 10px;
   object-fit: contain;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+  }
+
+  button {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+  }
+
+  #status {
+    font-size: 0.9em;
+    margin-bottom: 10px;
+  }
+
+  #dog-container {
+    max-width: 98%;
+    max-height: 90vh;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.7em;
+  }
+
+  button {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  #status {
+    font-size: 0.8em;
+  }
+
+  #dog-container {
+    padding: 8px;
+  }
+}
+
